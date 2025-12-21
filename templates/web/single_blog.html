@@ -1,0 +1,67 @@
+{% extends 'web/base.html' %}
+{% load static i18n %}
+{% block content %}
+
+<div class="inner-section-area" style="background-image: url({% static 'web/img/all-images/bg/hero-bg1.png' %}); background-position: center top; background-repeat: no-repeat; background-size: cover;">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4 pb-lg-5 pb-sm-0 ">
+        <div class="hero-header-area">
+          <h1>{% trans "Blog" %}</h1>
+          <h4><a href="{% url 'web:index' %}">{% trans "Home" %}</a> <i class="fa-solid fa-angle-right"></i> <a href="#">Blog Detail</a></h4>
+        </div>
+      </div>
+
+    </div>
+   
+  </div>
+</div>
+
+
+<!--===== BLOG AREA STARTS =======-->
+<div class="blog-details-section-area sp5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="blog-details-side">
+                    <div class="space30"></div>
+                    <div class="category-area">
+                        <h3>{% trans "Blogs" %}</h3>
+                        <div class="space6"></div>
+                        <ul>
+                            {% for blog in blogs  %}
+
+                            <li><a href="{{blog.get_absolute_url}}">{{blog.title}}<i class="fa-solid fa-angle-right"></i></a></li>
+                                                        
+                            {% endfor %}
+                          
+                        </ul>
+                    </div>
+                    <div class="space30"></div>
+                    <div class="recent-posts">
+
+                    </div>
+                    <div class="space30"></div>
+              
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="blog-others-sidebar">
+                    
+                    <div class="space32"></div>
+                   
+                    <div class="space24"></div>
+                    <h2>{{blog.title}}</h2>
+                    <div class="space20"></div>
+                    <p class='text-light'> {{blog.content|safe}}</p>
+                    <div class="space18"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

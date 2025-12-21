@@ -1,0 +1,197 @@
+{% extends  "web/base.html" %}
+{% load static i18n %}
+{% block  content %}
+
+        {% comment %} <div id="dsn-scrollbar">
+
+            <!-- ========== Header ========== -->
+            <header class="header-project dsn-header-animation p-relative over-hidden">
+
+                <div class="p-relative container dsn-hero-parallax-title pb-60">
+                    <div class="p-relative d-flex align-items-center w-100  h-100 ">
+
+                        <div class="box-content w-100 d-flex flex-column z-index-1">
+
+                            <h1 class="title-lg  service-detail-title" data-dsn-ajax="title">{{service_detail.title}}</h1>
+
+                           
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="pl-30 pr-30">
+                    <div class="box-img p-relative before-z-index has-border-radius" data-overlay="6" data-dsn-grid="move-up">
+                        <img class="cover-bg-img has-border-radius" src="{{service_detail.image.url}}" alt="">
+                    </div>
+                </div>
+
+            </header>
+            <!-- ========== End Header ========== -->
+
+            <div id="page_wrapper" class="wrapper">
+                <div class="project-info section-margin">
+                    <div class="container">
+                        <div class="d-grid c-width">
+                            <div class="info service-detail-description">
+                                <h3 class="title-block ">{{service_detail.description|safe}} </h3>
+
+                             
+                            </div>
+
+                            <div class="d-grid grid-md-1">
+
+                                <div class="info-box background-section has-border-radius p-20">
+                                    <h6 class="sm-title-block  mb-20 pb-15 border-bottom">{% trans "Other Services" %}</h6>
+                                    <div class="d-flex flex-column">
+                                        {% for service in services  %}
+
+                                        <span><a href="{{service.get_absolute_url}}">{{service.title}} </a></span>
+
+
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+ {% endcomment %}
+ <div id="dsn-scrollbar">
+
+    <!-- ========== Header ========== -->
+    <header class="header-page v-dark-head dsn-header-animation pb-80 pt-section p-relative">
+
+        <div class="box-img h-100 w-100 h-100 p-absolute top-0 right-0" data-overlay="7">
+            {% comment %} <img class="cover-bg-img" src="assets/img/bg.svg" alt=""> {% endcomment %}
+        </div>
+
+        <div class="p-relative container dsn-hero-parallax-title h-100">
+            <div class="p-relative d-flex align-items-center w-100  h-100 ">
+
+                <div class="box-content z-index-1">
+
+                    <h1 class="title-lg text-upper">{% trans "service Detail" %}</h1>
+
+                 
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="footer-head w-100 p-relative mt-20 z-index-2">
+            <div class="container d-flex justify-content-between">
+                <div class="dsn-btn dsn-btn-shape rotate-icon d-flex">
+
+                    <a class="button v-dark background-section" href="#">
+                        <span class="title-btn text-upper p-relative  z-index-1 heading-color"
+                            data-animate-text="{% trans "Scroll Down" %}">
+                            <span>{% trans "Scroll Down" %}</span>
+                        </span>
+                    </a>
+
+                    <span class="icon v-dark background-section">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                            <path d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z">
+                            </path>
+                        </svg>
+                    </span>
+
+                </div>
+
+                <div class="social-box d-flex align-items-center">
+
+                    <ul class="dsn-socials box-social">
+                        <li>
+                            <a href="#0" target="_blank" class="background-main">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i> <span>{% trans "FB" %}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0" target="_blank" class="background-main">
+                                <i class="fab fa-instagram" aria-hidden="true"></i> <span>{% trans "IN" %}</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0" target="_blank" class="background-main">
+                                <i class="fab fa-twitter" aria-hidden="true"></i> <span>{% trans "TW" %}</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+ <section class="about-section section-padding p-relative mt-5 section-margin">
+    <div class="container">
+        <div class="d-grid grid-lg-2">
+            <div class="box-text p-relative">
+                <div class="bg-pattern p-absolute w-100 "></div>
+                <h2 class="title mb-30 dsn-fill about-title">
+                    <span
+                    data-dsn-animation='{"from":{},"to":{},"responsive":["tablet","desktop"]}'>{{service.title}}
+                </h2>
+                <p class="dsn-up">{{ service.description|slice:":500"|safe }}
+                </p>
+                   
+              
+            </div>
+
+            <div class="corner-box over-hidden">
+                <div class="corner__lb"></div>
+                <div class="box-img h-100 img-box-parallax before-z-index dsn-animate dsn-effect-down"
+                    data-dsn-triggerhook="bottom" data-dsn-grid="move-up" data-overlay="0">
+
+                    <img class="cover-bg-img" src="{{service.image.url}}" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div
+            class="  mt-30 dsn-layout-fade-up">
+
+            <p class="dsn-up">{{ service.description|slice:"500:"|safe }}
+            </p>
+        </div>
+    </div>
+</section>
+<!-- ========== End About Us ========== -->
+
+    </main>
+
+
+
+{% endblock %}
+
+{% block css %}
+<style>
+    .service-detail-description ul li{
+    list-style: disc !important;
+    margin-top: 20px !important;
+    font-size: 16px !important;
+}
+.service-detail-description h5{
+    margin-top: 10px;
+    margin-bottom: 10px;}
+.service-detail-description p{
+    font-size: 16px;
+}
+@media only screen and (max-width: 767px) {
+[data-dsn-grid=move-up]:not(.p-absolute), [data-dsn-grid=moveUp]:not(.p-absolute) {
+    position: relative;
+    height: 500px !important;
+}
+}
+</style>
+
+{% endblock css %}

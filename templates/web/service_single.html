@@ -1,0 +1,57 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="breadcrum-area breadcrumb-banner pb-5">
+    <div class="container">
+        <div class="section-heading heading-left" data-sal="slide-right" data-sal-duration="1000" data-sal-delay="300">
+            <h1 class="title h2">{{service.get_category_display}}</h1>
+        </div>
+    </div>
+</div>
+
+<section class="section section-padding case-study-featured-area">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-md-12 mb-3">
+                <div class="text-center">
+                    <img src="{{service.image.url}}" alt="serviceimg">
+                </div>
+            </div> -->
+            <div class="col-md-12">
+                <div class="case-study-featured">
+                    <div class="section-heading heading-left">
+                        <span class="subtitle">{{service.subtitle}}</span>
+                        <h2 class="title">{{service.title}} </h2>
+                       
+                        {{service.content|safe}}
+                    
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include 'web/includes/service_view.html' %}
+
+<section class="section-padding-equal">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <div class="video-container">
+                    <video width="100%" height="auto" controls>
+                        <source src="{% static 'web/media/video/Video.m4v' %}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% include 'web/includes/cta.html' %}
+
+{% endblock %}

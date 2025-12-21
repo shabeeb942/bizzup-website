@@ -1,0 +1,166 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    {% load static i18n %}
+    {% get_current_language as LANGUAGE_CODE %}
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{% static 'web/fonts/css2ade7.css' %}?family=Poppins:wght@100;200;400;500&amp;display=swap"
+        rel="stylesheet">
+    <link href="{% static 'web/fonts/css28ded.css' %}?family=Antonio:wght@100..700&amp;display=swap" rel="stylesheet">
+    <link href="{% static 'web/fonts/css2b29f.css' %}?family=Satisfy&amp;display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/static/web/img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/static/web/img/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/static/web/img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/web/img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/static/web/img/favicon/site.webmanifest" />
+    
+    <title>{{meta.meta_title}}</title>
+    <meta name="title" content="{{meta.meta_title}}" />
+    <meta name="description" content="{{meta.meta_description}}" />
+ 
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{meta.url}}" />
+    <meta property="og:title" content="{{meta.meta_title}}" />
+    <meta property="og:description" content="{{meta.meta_description}}" />
+    {% if meta.image %}
+    <meta property="og:image" content="{{meta.image.url}}" />
+    {% else %}
+    <meta property="og:image" content="{% static 'web/images/meta.webp' %}" />
+    {% endif %}
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="{{meta.url}}" />
+    <meta property="twitter:title" content="{{meta.meta_title}}" />
+    <meta property="twitter:description" content="{{meta.meta_description}}" />
+    {% if meta.image %}
+    <meta property="twitter:image" content="{{meta.image.url}}" />
+    {% else %}
+    <meta property="twitter:image" content="{% static 'web/images/meta.webp' %}" />
+    {% endif %}
+    {% block css %}{% endblock css %}
+
+    <link href="{% static 'web/css/plugins.css' %}" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'web/css/style.css' %}">
+</head>
+
+<body class="v-light  {{LANGUAGE_CODE}}" dir="{% if LANGUAGE_CODE == 'ar' %}rtl{% else %}ltr{% endif %}">
+  
+
+    {% comment %} <div id="dsn_preloader" class="preloader">
+
+        <div class="dsnload p-absolute">
+        
+
+        </div>
+
+
+        <div class="logo-box v-middle">
+            <h3 class="title text-upper">bizzuparabia</h3>
+        </div>
+
+        <div class="loading-count">
+            <p>0</p>
+        </div>
+
+        <span class="loading-text text-uppercase mt-30 dsn-container">Loading ...</span>
+        <div class="bg-load background-section d-flex align-items-end dsn-bg-pattern bg-offset bg-square">
+            <svg class="dsn-separator-bottom dsn-icon-assistant-color" width="100%" height="100%" viewBox="0 0 100 10"
+                preserveAspectRatio="none">
+                <path class="path-anim separator__path" data-dsn-to="M 0 0 C 40 0 55 0 100 0 L 0 0 Z"
+                    vector-effect="non-scaling-stroke" d="M 0 0 C 40 16 75 10 100 0 L 0 0 Z"></path>
+            </svg>
+        </div>
+
+    </div> {% endcomment %}
+
+    <svg width="0" height="0" class="p-absolute hidden">
+        <defs>
+            <filter id="buttonFilter">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur">
+                </feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                    result="buttonFilter"></feColorMatrix>
+                <feComposite in="SourceGraphic" in2="buttonFilter" operator="atop">
+                </feComposite>
+                <feBlend in="SourceGraphic" in2="buttonFilter"></feBlend>
+            </filter>
+        </defs>
+    </svg>
+
+    <main id="main_root" class="main-root">
+    
+    {% include "web/includes/header.html" %}
+    {% block content %}
+    {% endblock  %}
+    {% include "web/includes/footer.html" %}
+
+
+
+
+    </main>    
+
+     <!-- ========== Cursor ========== -->
+     <div id="dsn_cursor" class="ball"></div>
+     <div id="dsn_cursor_inner" class="ball"></div>
+     <!-- ========== End Cursor ========== -->
+ 
+     <script src="{% static 'web/js/jquery-3.7.1.min.js' %}"></script>
+     <script src="{% static 'web/js/plugins.min.js' %}"></script>
+     <script src="{% static 'web/js/plugins/dsn-grid.min.js' %}"></script>
+     {% block js %}{% endblock js %}
+     <script src="{% static 'web/js/custom.js' %}"></script>
+     <script>
+        $(document).ready(function () {
+            $("#language-toggle").change(function () {
+                var isChecked = $(this).is(":checked");
+                var lang = isChecked ? "ar" : "en";
+                var active_lang = "{{ LANGUAGE_CODE }}";
+                var url = $(this).data("url");
+                var new_url = is_lang_active(url, active_lang) ? url.replace(active_lang, lang) : url + lang + "/";
+                window.location.href = new_url;
+            });
+    
+            function is_lang_active(url, active_lang) {
+                return url.includes(active_lang);
+            }
+        });
+    </script>
+     <script>
+        function toggleMode() {
+            const body = document.body;
+            const checkbox = document.getElementById('checkbox');
+            
+            if (checkbox.checked) {
+                body.classList.add('v-dark');
+                body.classList.remove('v-light');
+                localStorage.setItem('theme', 'v-dark');
+            } else {
+                body.classList.add('v-light');
+                body.classList.remove('v-dark');
+                localStorage.setItem('theme', 'v-light');
+            }
+        }
+    
+        // Function to apply the saved theme on page load
+        function applySavedTheme() {
+            const savedTheme = localStorage.getItem('theme');
+            const body = document.body;
+            const checkbox = document.getElementById('checkbox');
+    
+            if (savedTheme) {
+                body.className = savedTheme;
+                checkbox.checked = savedTheme === 'v-dark';
+            }
+        }
+    
+        // Apply the saved theme on page load
+        window.onload = applySavedTheme;
+    </script>
+    
+ </body>
+ 
+ </html>

@@ -1,0 +1,80 @@
+{% extends  "web/base.html" %}
+{% load static i18n %}
+{% block  content %}
+
+        <div id="dsn-scrollbar">
+
+            <!-- ========== Header ========== -->
+            <header class="header-project dsn-header-animation p-relative over-hidden">
+
+                <div class="p-relative container dsn-hero-parallax-title pb-60">
+                    <div class="p-relative d-flex align-items-center w-100  h-100 ">
+
+                        <div class="box-content w-100 d-flex flex-column z-index-1">
+
+                            <h1 class="title-lg text-upper" data-dsn-ajax="title">{{blog.title}}</h1>
+
+                           
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="pl-30 pr-30">
+                    <div class="box-img p-relative before-z-index has-border-radius" data-overlay="6" data-dsn-grid="move-up">
+                        <img class="cover-bg-img has-border-radius" src="{{blog.image.url}}" alt="">
+                    </div>
+                </div>
+
+            </header>
+            <!-- ========== End Header ========== -->
+
+            <div id="page_wrapper" class="wrapper">
+                <div class="project-info section-margin">
+                    <div class="container">
+                        <div class="d-grid c-width">
+                            <div class="d-grid grid-md-1">      
+                                <div class="p-20">
+                                    <h6 class="sm-title-block text-upper mb-20 pb-15 border-bottom">{{blog.date}}</h6>
+                                    <div class="list">
+                                        <span class="background-section">
+                                            {{blog.title}}
+
+
+                                        </span>
+                                 
+                                    </div>
+                                 
+                                </div>
+
+                                <div class="info-box background-section has-border-radius p-20">
+                                    <h6 class="sm-title-block text-upper mb-20 pb-15 border-bottom">Details</h6>
+                                    <div class="d-flex flex-column">
+                                       
+
+                                        <span>{{blog.content|safe}}</span>
+
+
+                                  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </main>
+
+
+
+{% endblock %}

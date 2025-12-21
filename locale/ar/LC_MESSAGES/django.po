@@ -1,0 +1,744 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-13 21:23+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: templates/web/about.html:20
+msgid "Innovative solutions for your business needs"
+msgstr "حلول مبتكرة لاحتياجات عملك"
+
+#: templates/web/about.html:106
+msgid "Seamless"
+msgstr "سلس"
+
+#: templates/web/about.html:106
+msgid "Experience"
+msgstr "خبرة"
+
+#: templates/web/about.html:119
+msgid "Expand Your Business"
+msgstr "تخطيط استراتيجية العمل الخاصة بك"
+
+#: templates/web/about.html:120
+msgid "in Saudi Arabia with Us"
+msgstr "في المملكة العربية السعودية مع خبراء بيزاب أرابيا!"
+
+#: templates/web/about.html:124 templates/web/request_for_quotation.html:266
+msgid ""
+"With years of expertise in supporting businesses entering the Saudi market, "
+"Bizzup Arabia goes beyond being a business incorporation specialist. We "
+"offer essential services, including accounting, bookkeeping, tax, auditing, "
+"as well as GRO and PRO services."
+msgstr ""
+"بفضل سنوات من الخبرة في دعم الشركات التي تدخل السوق السعودي، تتجاوز بيز أب "
+"أرابيا كونها متخصصًا في تأسيس الأعمال التجارية. نحن نقدم خدمات أساسية تشمل "
+"المحاسبة، ومسائل الدفاتر، والضرائب، والتدقيق، بالإضافة إلى خدمات GRO و PRO."
+
+#: templates/web/about.html:126 templates/web/request_for_quotation.html:268
+msgid ""
+"Our team of skilled professionals has established Bizzup Arabia as a premier "
+"consultancy firm in Saudi Arabia, specializing in international business "
+"setup support. We ensure our clients receive top-notch business services, "
+"making us a trusted partner for their growth and success."
+msgstr ""
+"لقد أسس فريقنا من المحترفين المهرة شركة بيز أب أرابيا كأحدى الشركات "
+"الاستشارية الرائدة في المملكة العربية السعودية، المتخصصة في دعم إعداد "
+"الأعمال التجارية الدولية. نحن نضمن لعملائنا الحصول على خدمات تجارية عالية "
+"الجودة، مما يجعلنا شريكًا موثوقًا لنموهم ونجاحهم."
+
+#: templates/web/about.html:135 templates/web/contact.html:22
+msgid "CONTACT US"
+msgstr "معلومات الاتصال"
+
+#: templates/web/about.html:170 templates/web/index.html:161
+#: templates/web/request_for_quotation.html:511
+msgid "Company Formations in KSA"
+msgstr "تأسيس الشركات في المملكة العربية السعودية"
+
+#: templates/web/about.html:177 templates/web/index.html:168
+#: templates/web/request_for_quotation.html:524
+msgid "Happy Clients"
+msgstr "عملاء سعيدون"
+
+#: templates/web/about.html:193 templates/web/index.html:184
+msgid "Years"
+msgstr "سنوات"
+
+#: templates/web/about.html:194 templates/web/index.html:185
+msgid "experience"
+msgstr "خبرة"
+
+#: templates/web/about.html:268
+msgid "Mission &"
+msgstr "المهمة و"
+
+#: templates/web/about.html:270 templates/web/about.html:290
+#: templates/web/request_for_quotation.html:352
+msgid "Vision"
+msgstr "الرؤية"
+
+#: templates/web/about.html:279 templates/web/request_for_quotation.html:340
+msgid "Mission"
+msgstr "المهمة"
+
+#: templates/web/about.html:280 templates/web/request_for_quotation.html:341
+msgid ""
+"To empower businesses entering the Saudi market by providing seamless, "
+"reliable, and innovative corporate services that drive growth and "
+"operational excellence."
+msgstr ""
+"تمكين الشركات التي تدخل السوق السعودي من خلال تقديم خدمات الشركات السلسة "
+"والموثوقة والمبتكرة التي تعزز النمو والتميز التشغيلي."
+
+#: templates/web/about.html:291 templates/web/request_for_quotation.html:353
+msgid ""
+"To be the leading consultancy firm in Saudi Arabia, known for simplifying "
+"business operations and enabling success for companies worldwide."
+msgstr ""
+"أن نكون الشركة الاستشارية الرائدة في المملكة العربية السعودية، المعروفة "
+"بتبسيط العمليات التجارية وتمكين النجاح للشركات حول العالم."
+
+#: templates/web/about.html:309
+msgid "Our Values"
+msgstr "قيمنا"
+
+#: templates/web/about.html:317
+msgid "Integrity"
+msgstr "النزاهة"
+
+#: templates/web/about.html:322
+msgid "Upholding transparency and trust in all our dealings."
+msgstr "التمسك بالشفافية والثقة في جميع تعاملاتنا."
+
+#: templates/web/about.html:332
+msgid "Excellence"
+msgstr "خبرة"
+
+#: templates/web/about.html:337
+msgid ""
+"Delivering high-quality services tailored to each client’s unique needs."
+msgstr "تقديم خدمات عالية الجودة مصممة لتلبية احتياجات كل عميل بشكل فريد."
+
+#: templates/web/about.html:347 templates/web/about.html:408
+msgid "Collaboration"
+msgstr "التعاون"
+
+#: templates/web/about.html:352
+msgid "Building strong, lasting partnerships with our clients."
+msgstr "بناء شراكات قوية ودائمة مع عملائنا."
+
+#: templates/web/about.html:362
+msgid "Innovation"
+msgstr "الابتكار"
+
+#: templates/web/about.html:367
+msgid ""
+"Continuously improving our services to adapt to changing business landscapes."
+msgstr "التحسين المستمر لخدماتنا للتكيف مع تغييرات بيئة الأعمال."
+
+#: templates/web/about.html:385
+msgid "Our Philosophy"
+msgstr "فلسفتنا"
+
+#: templates/web/about.html:394
+msgid "Creativity"
+msgstr "الإبداع"
+
+#: templates/web/about.html:395
+msgid "Transforming ideas into memorable campaigns."
+msgstr "تحويل الأفكار إلى حملات لا تُنسى"
+
+#: templates/web/about.html:401
+msgid "Sustainability"
+msgstr "الاستدامة"
+
+#: templates/web/about.html:402
+msgid "Embedding eco-friendly practices into everything we do."
+msgstr "دمج الممارسات الصديقة للبيئة في كل ما نقوم به"
+
+#: templates/web/about.html:409
+msgid "Partnering with clients to achieve shared success."
+msgstr "التعاون مع العملاء لتحقيق النجاح المشترك."
+
+#: templates/web/about.html:423 templates/web/index.html:378
+msgid "testimonials"
+msgstr "التوصيات"
+
+#: templates/web/about.html:424 templates/web/index.html:379
+msgid "What People Are Saying"
+msgstr "ماذا يقول الناس"
+
+#: templates/web/about.html:426 templates/web/index.html:381
+msgid "Consumers today rely heavily on digital"
+msgstr "المستهلكون اليوم يعتمدون بشكل كبير على الرقمية"
+
+#: templates/web/about.html:427 templates/web/index.html:382
+msgid "means to research products. We research"
+msgstr "البحث عن المنتجات. نحن نقوم بالبحث"
+
+#: templates/web/about.html:428 templates/web/index.html:383
+msgid "a brand of bldend"
+msgstr "علامة تجارية للخلط"
+
+#: templates/web/about.html:445 templates/web/index.html:400
+msgid "out of 5 stars"
+msgstr "من 5 نجوم"
+
+#: templates/web/about.html:495
+msgid "OUR BRANDS"
+msgstr "علاماتنا التجارية"
+
+#: templates/web/about.html:520
+msgid ""
+"We are proud to partner with a diverse range of clients across industries, "
+"building trust through innovative solutions. Their success stories inspire "
+"our commitment to excellence."
+msgstr ""
+"نحن فخورون بشراكتنا مع مجموعة متنوعة من العملاء عبر الصناعات، نبني الثقة من "
+"خلال الحلول المبتكرة. قصص نجاحهم تلهم التزامنا بالتميز."
+
+#: templates/web/about.html:528 templates/web/includes/header.html:119
+#: templates/web/includes/header.html:132
+#: templates/web/includes/service_detail1.html:578
+#: templates/web/request_for_quotation.html:113
+#: templates/web/service_detail1.html:620
+msgid "Contact"
+msgstr "اتصال"
+
+#: templates/web/blog.html:19
+msgid "Our Blogs"
+msgstr "المدونات"
+
+#: templates/web/blog.html:34 templates/web/blog.html:35
+#: templates/web/contact.html:59 templates/web/contact.html:60
+#: templates/web/portfolio.html:35 templates/web/portfolio.html:36
+#: templates/web/service.html:35 templates/web/service.html:36
+#: templates/web/service_detail.html:99 templates/web/service_detail.html:100
+msgid "Scroll Down"
+msgstr "تمرير للاسفل"
+
+#: templates/web/blog.html:53 templates/web/contact.html:78
+#: templates/web/contact.html:196 templates/web/includes/footer.html:70
+#: templates/web/portfolio.html:54 templates/web/service.html:54
+#: templates/web/service_detail.html:118
+msgid "FB"
+msgstr "فيسبوك"
+
+#: templates/web/blog.html:58 templates/web/contact.html:83
+#: templates/web/contact.html:201 templates/web/includes/footer.html:75
+#: templates/web/portfolio.html:59 templates/web/service.html:59
+#: templates/web/service_detail.html:123
+msgid "IN"
+msgstr "انستجرام"
+
+#: templates/web/blog.html:63 templates/web/portfolio.html:64
+#: templates/web/service.html:64 templates/web/service_detail.html:128
+msgid "TW"
+msgstr "تويتر"
+
+#: templates/web/contact.html:108
+msgid "Let's Work Together"
+msgstr "لنعمَل معًا"
+
+#: templates/web/contact.html:119
+msgid "Business Hours"
+msgstr "ساعات العمل"
+
+#: templates/web/contact.html:121
+msgid "Monday to Friday: 9 AM - 6 PM"
+msgstr "من الاثنين إلى الجمعة: 9 صباحًا - 6 مساءً"
+
+#: templates/web/contact.html:121
+msgid "Saturday: 10 AM - 4 PM"
+msgstr "السبت: 10 صباحًا - 4 مساءً"
+
+#: templates/web/contact.html:121
+msgid "Sunday: Closed"
+msgstr "السبت: مغلق"
+
+#: templates/web/contact.html:125 templates/web/includes/header.html:127
+msgid "Address"
+msgstr "عنوان"
+
+#: templates/web/contact.html:126 templates/web/includes/header.html:128
+msgid "Khaled Ibn Al Walid, Street, Jeddah 23216, Saudi Arabia"
+msgstr "شارع خالد بن الوليد، جدة 23216، المملكة العربية السعودية"
+
+#: templates/web/contact.html:191
+msgid "Available for work"
+msgstr "متاح للعمل"
+
+#: templates/web/contact.html:208
+msgid "LN"
+msgstr "لنكدن"
+
+#: templates/web/includes/footer.html:32
+msgid "Navigation Links"
+msgstr "روابط النقل"
+
+#: templates/web/includes/footer.html:35
+msgid "home"
+msgstr "الرئيسية"
+
+#: templates/web/includes/footer.html:38 templates/web/index.html:329
+#: templates/web/portfolio.html:20
+msgid "What We Do"
+msgstr "ما نقدمه"
+
+#: templates/web/includes/footer.html:41
+msgid "Contact us"
+msgstr "اتصال"
+
+#: templates/web/includes/footer.html:50
+msgid "CONTACT Info"
+msgstr "معلومات الاتصال"
+
+#: templates/web/includes/footer.html:66
+msgid "socials Links"
+msgstr "روابط التواصل الاجتماعي"
+
+#: templates/web/includes/footer.html:87
+#: templates/web/request_for_quotation.html:709
+msgid "Copyright ©"
+msgstr "حقوق النشر ©"
+
+#: templates/web/includes/footer.html:87
+msgid "bizzuparabia"
+msgstr "بيزبارابيا"
+
+#: templates/web/includes/footer.html:87
+#: templates/web/request_for_quotation.html:709
+msgid "All Rights Reserved"
+msgstr "جميع الحقوق محفوظة"
+
+#: templates/web/includes/footer.html:106
+msgid "SCROLL TOP"
+msgstr "عودة للاعلى"
+
+#: templates/web/includes/header.html:35
+#: templates/web/includes/service_detail1.html:494
+#: templates/web/service_detail1.html:536
+msgid "MENU"
+msgstr "قائمة طعام"
+
+#: templates/web/includes/header.html:39
+#: templates/web/includes/service_detail1.html:498
+#: templates/web/request_for_quotation.html:99
+#: templates/web/service_detail1.html:540 templates/web/single_blog.html:11
+msgid "Home"
+msgstr "الرئيسية"
+
+#: templates/web/includes/header.html:106
+#: templates/web/includes/service_detail1.html:565
+#: templates/web/service_detail1.html:607
+msgid "About"
+msgstr "عن"
+
+#: templates/web/includes/header.html:145
+msgid "Follow us"
+msgstr "تابعنا"
+
+#: templates/web/includes/header.html:149
+msgid "Linkedin"
+msgstr "لينكدان"
+
+#: templates/web/includes/header.html:163
+#: templates/web/includes/service_detail1.html:591
+#: templates/web/service_detail1.html:633
+msgid "Menu"
+msgstr "قائمة"
+
+#: templates/web/includes/header.html:164
+#: templates/web/includes/service_detail1.html:592
+#: templates/web/service_detail1.html:634
+msgid "Open"
+msgstr "افتح"
+
+#: templates/web/includes/header.html:165
+#: templates/web/includes/service_detail1.html:593
+#: templates/web/service_detail1.html:635
+msgid "Close"
+msgstr "اغلق"
+
+#: templates/web/includes/header.html:190
+msgid "Get a Quote"
+msgstr "احصل على عرض أسعار"
+
+#: templates/web/index.html:88
+msgid "PREV"
+msgstr "السابق"
+
+#: templates/web/index.html:94
+msgid "NEXT"
+msgstr "التالي"
+
+#: templates/web/index.html:113
+msgid "Plan Your Business Strategy"
+msgstr "تخطيط استراتيجية العمل الخاصة بك"
+
+#: templates/web/index.html:114
+msgid "in Saudi Arabia with Bizzup Arabia Experts!"
+msgstr "في المملكة العربية السعودية مع خبراء بيزاب أرابيا!"
+
+#: templates/web/index.html:117
+msgid ""
+"We’re your on-the-ground partner in Saudi Arabia, helping you set up and "
+"grow. With over 150 local experts, we offer end-to-end support and complete "
+"legal guidance. Explore the unique advantages of Saudi’s strategic location "
+"and business environment. Join forces with us to nurture your growth and "
+"maximize efficiency for your success!"
+msgstr ""
+"نحن شريكك المحلي في المملكة العربية السعودية، نساعدك في الإعداد والنمو. مع "
+"أكثر من 150 خبيرًا محليًا، نقدم لك دعمًا شاملاً وإرشادًا قانونيًا كاملاً. اكتشف "
+"المزايا الفريدة لموقع المملكة الاستراتيجي وبيئة الأعمال. انضم إلينا للعمل "
+"على تعزيز نموك وزيادة الكفاءة لتحقيق نجاحك!"
+
+#: templates/web/index.html:125 templates/web/index.html:126
+msgid "ABOUT US"
+msgstr "من نحن"
+
+#: templates/web/index.html:234
+msgid "SERVICES"
+msgstr "الخدمات"
+
+#: templates/web/index.html:235
+msgid "Our Service"
+msgstr "خدمتنا"
+
+#: templates/web/index.html:328
+msgid "Comprehensive Business Solutions"
+msgstr "حلول شاملة للأعمال"
+
+#: templates/web/index.html:450 templates/web/single_blog.html:29
+msgid "Blogs"
+msgstr "المدونات"
+
+#: templates/web/index.html:451
+msgid "Latest Updates"
+msgstr "التحديثات الأخيرة"
+
+#: templates/web/request_for_quotation.html:160
+msgid "get a free consultation"
+msgstr "احصل على استشارة مجانية"
+
+#: templates/web/request_for_quotation.html:188
+msgid "Get in Touch with Us"
+msgstr "تواصل معنا"
+
+#: templates/web/request_for_quotation.html:189
+msgid "We're Here to Help Your"
+msgstr "نحن هنا لمساعدتك"
+
+#: templates/web/request_for_quotation.html:189
+msgid "Business Succeed"
+msgstr "ساعات العمل"
+
+#: templates/web/request_for_quotation.html:190
+msgid ""
+"Whether you need assistance with business setup, compliance, or operational "
+"support, our team is ready to help. Reach out to us for expert guidance and "
+"seamless solutions."
+msgstr ""
+"سواء كنت بحاجة إلى مساعدة في تأسيس الأعمال أو الامتثال أو الدعم التشغيلي، "
+"فإن فريقنا مستعد لمساعدتك. تواصل معنا للحصول على إرشادات خبراء وحلول سلسة."
+
+#: templates/web/request_for_quotation.html:201
+#: templates/web/request_for_quotation.html:206
+#: templates/web/request_for_quotation.html:211
+#: templates/web/request_for_quotation.html:216
+#: templates/web/request_for_quotation.html:747
+#: templates/web/request_for_quotation.html:752
+#: templates/web/request_for_quotation.html:757
+#: templates/web/request_for_quotation.html:762
+msgid "Please fill out this field."
+msgstr "يرجى ملء هذا الحقل."
+
+#: templates/web/request_for_quotation.html:220
+#: templates/web/request_for_quotation.html:766
+msgid "Submit"
+msgstr "إرسال"
+
+#: templates/web/request_for_quotation.html:264
+msgid "about us"
+msgstr "عن"
+
+#: templates/web/request_for_quotation.html:265
+msgid "Your Gateway to Business Success in"
+msgstr "بوابتك إلى نجاح الأعمال في"
+
+#: templates/web/request_for_quotation.html:265
+#: templates/web/request_for_quotation.html:393
+msgid "Saudi Arabia"
+msgstr "في المملكة العربية السعودية مع خبراء بيزاب أرابيا!"
+
+#: templates/web/request_for_quotation.html:288
+msgid "Expertise"
+msgstr "خبرة"
+
+#: templates/web/request_for_quotation.html:289
+#: templates/web/request_for_quotation.html:420
+msgid "Comprehensive Services"
+msgstr "حلول شاملة للأعمال"
+
+#: templates/web/request_for_quotation.html:290
+msgid "Trusted Partner"
+msgstr "شريك موثوق"
+
+#: templates/web/request_for_quotation.html:297
+msgid "Get A Quote"
+msgstr "احصل على عرض أسعار"
+
+#: templates/web/request_for_quotation.html:319
+msgid "Building Business Success in Saudi Arabia"
+msgstr "بناء نجاح الأعمال في المملكة العربية السعودية"
+
+#: templates/web/request_for_quotation.html:320
+msgid " Guiding Principles Driving Our Commitment to"
+msgstr "المبادئ التوجيهية التي تحفز التزامنا بـ"
+
+#: templates/web/request_for_quotation.html:320
+msgid "Client Success"
+msgstr "نجاح العملاء"
+
+#: templates/web/request_for_quotation.html:321
+msgid ""
+"At Bizzup Arabia, we are committed to supporting businesses with integrity, "
+"excellence, and innovation. Our mission, vision, and values define our "
+"approach to helping companies thrive in Saudi Arabia."
+msgstr ""
+"في بزب أب العربية، نحن ملتزمون بدعم الشركات بالنزاهة والتميز والابتكار. تحدد "
+"مهمتنا ورؤيتنا وقيمنا نهجنا في مساعدة الشركات على الازدهار في المملكة "
+"العربية السعودية."
+
+#: templates/web/request_for_quotation.html:327
+#: templates/web/request_for_quotation.html:579
+msgid "Contact Now"
+msgstr "اتصال"
+
+#: templates/web/request_for_quotation.html:364
+msgid "Values"
+msgstr "قيمنا"
+
+#: templates/web/request_for_quotation.html:365
+msgid ""
+"We uphold transparency and trust in all our dealings, ensuring that our "
+"clients can rely on us for honest and ethical service."
+msgstr ""
+"نحن نلتزم بالشفافية والثقة في جميع تعاملاتنا، مما يضمن لعملائنا الاعتماد "
+"علينا في تقديم خدمة صادقة وأخلاقية."
+
+#: templates/web/request_for_quotation.html:391
+msgid "Why Choose Bizzup Arabia?"
+msgstr "لماذا تختار بيز آب العربية؟"
+
+#: templates/web/request_for_quotation.html:393
+msgid "Your Trusted Partner for Business Success in"
+msgstr "شريكك الموثوق لنجاح الأعمال في"
+
+#: templates/web/request_for_quotation.html:407
+msgid "Market Expertise"
+msgstr "الخبرة في السوق"
+
+#: templates/web/request_for_quotation.html:408
+#: templates/web/request_for_quotation.html:421
+msgid ""
+"Years of experience helping businesses establish and grow in Saudi Arabia."
+msgstr ""
+"سنوات من الخبرة في مساعدة الشركات على التأسيس والنمو في المملكة العربية "
+"السعودية."
+
+#: templates/web/request_for_quotation.html:431
+msgid "Client-Centric Approach"
+msgstr "نهج يركز على العميل"
+
+#: templates/web/request_for_quotation.html:432
+msgid "Reliable Support"
+msgstr "دعم موثوق"
+
+#: templates/web/request_for_quotation.html:491
+msgid "Bizzup Arabia at a Glance"
+msgstr "نظرة سريعة على بز آب العربية"
+
+#: templates/web/request_for_quotation.html:493
+msgid "Insights into Our"
+msgstr "رؤى حول"
+
+#: templates/web/request_for_quotation.html:493
+msgid "Experience and Achievements"
+msgstr "الخبرة والإنجازات"
+
+#: templates/web/request_for_quotation.html:496
+msgid ""
+"Our track record speaks for itself—helping businesses establish and thrive "
+"in Saudi Arabia with expert guidance and tailored solutions. We simplify the "
+"process so you can focus on growth."
+msgstr ""
+"سجلنا الحافل يتحدث عن نفسه—نساعد الشركات على التأسيس والازدهار في المملكة "
+"العربية السعودية من خلال التوجيه المتخصص والحلول المصممة خصيصًا. نحن نبسط "
+"العملية حتى تتمكن من التركيز على النمو."
+
+#: templates/web/request_for_quotation.html:537
+msgid "Years experience"
+msgstr "خبرة"
+
+#: templates/web/request_for_quotation.html:547
+msgid "Comprehensive Service"
+msgstr "حلول شاملة للأعمال"
+
+#: templates/web/request_for_quotation.html:548
+msgid "Expert Team"
+msgstr "فريق الخبراء"
+
+#: templates/web/request_for_quotation.html:571
+msgid "What Our Clients Say"
+msgstr "ماذا يقول عملاؤنا"
+
+#: templates/web/request_for_quotation.html:572
+msgid "Real Experiences, Real Success Stories"
+msgstr "تجارب حقيقية، قصص نجاح حقيقية"
+
+#: templates/web/request_for_quotation.html:573
+msgid ""
+"Our clients trust us to simplify business operations and drive success in "
+"Saudi Arabia. Hear from those who have partnered with Bizzup Arabia and "
+"achieved their goals with our expert support."
+msgstr ""
+"يثق عملاؤنا بنا لتبسيط العمليات التجارية ودفع النجاح في المملكة العربية "
+"السعودية. استمع إلى الذين تعاونوا مع Bizzup Arabia وحققوا أهدافهم بدعمنا "
+"المتخصص."
+
+#: templates/web/request_for_quotation.html:592
+msgid "Drag"
+msgstr "اسحب"
+
+#: templates/web/request_for_quotation.html:685
+msgid "Need help!"
+msgstr "تحتاج مساعدة!"
+
+#: templates/web/request_for_quotation.html:692
+msgid "E-mail now"
+msgstr "البريد الالكتروني"
+
+#: templates/web/request_for_quotation.html:709
+msgid "Bizzup Arabia"
+msgstr "بيزبارابيا"
+
+#: templates/web/request_for_quotation.html:718
+msgid "LinkedIn"
+msgstr "لينكدان"
+
+#: templates/web/request_for_quotation.html:719
+msgid "Facebook"
+msgstr "فيسبوك"
+
+#: templates/web/request_for_quotation.html:720
+msgid "Instagram"
+msgstr "إنستغرام"
+
+#: templates/web/request_for_quotation.html:721
+msgid "Twitter"
+msgstr "تويتر"
+
+#: templates/web/request_for_quotation.html:736
+msgid "Get A Free Consultation"
+msgstr "احصل على استشارة مجانية"
+
+#: templates/web/service.html:20
+msgid "Our Services"
+msgstr "خدمتنا"
+
+#: templates/web/service_detail.html:84
+msgid "service Detail"
+msgstr "تفاصيل الخدمة"
+
+#: templates/web/service_detail1.html:675
+#: templates/web/service_detail1.html:709
+msgid "Apply Now"
+msgstr "تقدم بطلبك الآن"
+
+#: templates/web/single_blog.html:10
+msgid "Blog"
+msgstr "المدونات"
+
+#: web/forms.py:11
+msgid "Name"
+msgstr "الاسم"
+
+#: web/forms.py:12
+msgid "Email"
+msgstr "البريد الالكتروني"
+
+#: web/forms.py:13
+msgid "Phone"
+msgstr "الهاتف"
+
+#: web/forms.py:14
+msgid "Message"
+msgstr "الرسالة"
+
+#: web/forms.py:29
+msgid "Service"
+msgstr "خدمتنا"
+
+#: web/forms.py:37
+msgid "Your Name"
+msgstr "الاسم"
+
+#: web/forms.py:45
+msgid "Your Phone"
+msgstr "الهاتف"
+
+#: web/forms.py:53
+msgid "Email *"
+msgstr "البريد الالكتروني"
+
+#: web/forms.py:60
+msgid "Type Your Message"
+msgstr ""
+
+#: web/forms.py:69
+msgid "Select Service"
+msgstr "خدمتنا"
+
+#~ msgid "get started"
+#~ msgstr "ابدأ الآن"
+
+#~ msgid "Recent work"
+#~ msgstr "أحدث الأعمال"
+
+#~ msgid "Portfolio"
+#~ msgstr "المنتجات"
+
+#~ msgid "View project"
+#~ msgstr "عرض المشروع"
+
+#~ msgid "PORTFOLIO"
+#~ msgstr "محفظة الأعمال"
+
+#~ msgid "Our Works"
+#~ msgstr "أعمالنا"
+
+#~ msgid "time to"
+#~ msgstr "الوقت لـ"
+
+#~ msgid "roar!"
+#~ msgstr "تنجيز!"
+
+#~ msgid "IS YOUR BIG IDEA READY"
+#~ msgstr "هل فكرتك الكبيرة جاهزة"
+
+#~ msgid "TO GO WILD?"
+#~ msgstr "تذهب الغني؟"
+
+#~ msgid ""
+#~ "DON’T BE SHY. SAY HI TO UNLOCK CREATIVITY AND INNOVATION FOR YOUR "
+#~ "SEAMLESS PROJECT"
+#~ msgstr "لا تكن خجولًا. قل مرحبًا لفتح أبواب الإبداع والابتكار لمشروعك السلس"
