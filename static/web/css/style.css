@@ -1,11 +1,6 @@
 /*-----------------------------------------------------------
 
-  Template Name: bizzuparabia - Ajax Portfolio Showcase HTML Template
-  Template URI: https://template.dsngrid.com//bizzuparabia
-  Description: bizzuparabia - Ajax Portfolio Showcase HTML Template
-  Author: design_grid
-  Author URI: https://themeforest.net/user/design_grid
-  Version: 1.0.0
+
 
 -------------------------------------------------------------*/
 /*-----------------------------------------------------------
@@ -1747,7 +1742,7 @@ a:hover, a:active {
 
 .main-brand img,
 .dsnload__img img {
-  width: 50px;
+  width: 160px;
   max-width: 100%;
   height: auto;
 }
@@ -7561,7 +7556,7 @@ position: absolute;
 /* top: 150px;
   right: 25px; */
   top: 29px;
-  margin-left: 60px;
+  margin-left: 180px;
   width: 90px;
   height: 90px;
   
@@ -7748,6 +7743,18 @@ margin-top:16px;
   .system-section {
       display: none !important;
   }
+  .main-brand img, .dsnload__img img {
+    width: 94px;
+    max-width: 100%;
+    height: auto;
+}
+.switch {
+    /* position: fixed; */
+    position: absolute;
+    /* bottom: 80px; */
+    top: 29px;
+    margin-left: 94px;
+}
   .site-header.dsn-hamburger ul.primary-nav li, .site-header.dsn-hamburger ul.primary-nav ul li {
     font-size: 15px !important;
     font-weight: 900;
