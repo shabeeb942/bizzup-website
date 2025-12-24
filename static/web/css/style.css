@@ -7744,16 +7744,27 @@ margin-top:16px;
       display: none !important;
   }
   .main-brand img, .dsnload__img img {
-    width: 94px;
+    width: 73px;
     max-width: 100%;
     height: auto;
+}
+input.check-toggle-round-flat + label {
+  padding: 2px;
+  width: 83px;
+  height: 30px;
+  background-color: #1C3B6C;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 9px;
 }
 .switch {
     /* position: fixed; */
     position: absolute;
     /* bottom: 80px; */
-    top: 29px;
-    margin-left: 94px;
+    top: 22px;
+    margin-left: 80px;
 }
   .site-header.dsn-hamburger ul.primary-nav li, .site-header.dsn-hamburger ul.primary-nav ul li {
     font-size: 15px !important;

@@ -6859,10 +6859,28 @@ footer.main-footer{
 	.google-map-iframe iframe{
         height: 350px;
     }
+	.switch {
+		/* position: fixed; */
+		position: absolute;
+		/* bottom: 80px; */
+		top: 27px !important;
+		margin-left: 153px !important;
+		width: 90px;
+		height: 90px;
+		display: flex
+	;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		z-index: 1000;
+		/* position: relative; */
+		display: inline-block;
+		/* margin: 0 5px; */
+	}
 }
 
 .navbar-brand img{
-	height: 70px;
+	height: 43px;
 }
 
 
@@ -6872,8 +6890,8 @@ footer.main-footer{
 	/* bottom: 80px; */
   /* top: 150px;
 	right: 25px; */
-	top: 50px;
-    margin-left: 120px;
+	top: 30px;
+    margin-left: 140px;
     
 	width: 90px;
 	height: 90px;
