@@ -1,9 +1,4 @@
 User-agent: *
-Disallow: /admin/
-Disallow: /static/
-Disallow: /media/
-
-User-agent: Googlebot
-Disallow: /private/
-
-Sitemap: https://www.bizzuparabias.com/sitemap.xml
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://bizzuparabia.com/sitemap.xml

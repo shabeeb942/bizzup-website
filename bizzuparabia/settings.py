@@ -31,7 +31,11 @@ INSTALLED_APPS = [
     "rosetta",
     'modeltranslation',
     "web",
-]
+'django.contrib.sites',
+    'django.contrib.sitemaps',]
+
+SITE_ID = 1
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
