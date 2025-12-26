@@ -1,0 +1,7 @@
+python manage.py makemessages -l ar
+python manage.py compilemessages
+
+
+if any error show while load
+
+sudo apt-get -y install gettext

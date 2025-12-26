@@ -113,7 +113,7 @@
                                 </span> {% trans "in Saudi Arabia with Bizzup Arabia Experts!" %}
                                     
                                 </h2>
-                                <p class="dsn-up">{% trans "We’re your on-the-ground partner in Saudi Arabia, helping you set up and grow. With over 150 local experts, we offer end-to-end support and complete legal guidance. Explore the unique advantages of Saudi’s strategic location and business environment. Join forces with us to nurture your growth and maximize efficiency for your success!" %}
+                                <p class="dsn-up">{% trans "As a leading business setup consultant in Saudi Arabia,  Bizzup Arabia helps you to set up and develop your business plans from start to finish. With over 150 local experts and years of expertise, we offer end-to-end support and complete legal guidance. Explore the unique advantages of Saudi Arabia’s strategic location and business environment with us. Partner with us to nurture business growth and maximize operational efficiency." %}
 
                                 </p>
 
@@ -122,11 +122,11 @@
                                     <a class="button background-theme effect-ajax" href="{% url 'web:about' %}">
                                         <span class="title-btn p-relative  z-index-1 heading-color"
                                             data-animate-text="{% trans "ABOUT US" %}">
-                                            <span>{% trans "ABOUT US" %}</span>
+                                            <span>{% trans "MORE ABOUT US" %}</span>
                                         </span>
                                     </a>
 
-                                    <span class="icon background-theme">
+                                    <span class="icon background-theme">    
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
                                             <path
                                                 d="M328 96h24v288h-48V177.9L81 401l-17 17-33.9-34 17-17 223-223H64V96h264z">
@@ -188,10 +188,57 @@
                         </div>
                     </div>
                 </section>
+
+                <section class="about-section section-padding p-relative">
+                    <div class="container">
+                
+                        <div class="box-text p-relative full-width-content">
+                            <div class="bg-pattern p-absolute w-100"></div>
+                
+                            <h2 class="title mb-30 dsn-fill about-title">
+                                <span data-dsn-animation='{"from":{},"to":{},"responsive":["tablet","desktop"]}'>
+                                    {% trans "Bizzup Arabia: The #1 Business Setup Consultant In Saudi Arabia" %}
+                                </span>
+                            </h2>
+                
+                            <p class="dsn-up">
+                                {% trans "Are you looking to establish your business presence in Saudi Arabia's ever-growing business and industrial landscape? As a leading business development consultant in Saudi Arabia (KSA), with over 600 company formations in Saudi Arabia and over 3,000 satisfied clients for over 7 years, we help you successfully establish, develop, and thrive your business in the country's business-friendly ecosystem." %}
+                            </p>
+                
+                            <p class="dsn-up mt-15">
+                                {% trans "From company registration to obtaining licenses and obtaining a company operating permit, we handle the entire process of company formation responsibly and with excellent service. We start our process with a detailed consultation to understand your business goals, then develop a comprehensive business plan. Our team handles all the legal processes and provides full support to start your business in Saudi Arabia." %}
+                            </p>
+                
+                            <p class="dsn-up mt-15">
+                                {% trans "As a leading business consultant in Saudi Arabia, Bizzup Arabia assists you with all other business incorporation processes, in addition to company formation. This includes auditing and tax services, PRO & GRO services, and company formations in special economic zones, and more." %}
+                            </p>
+                
+                            <p class="dsn-up mt-15">
+                                {% trans "Bizzup Arabia has over 7 years of experience in building successful businesses within Saudi Arabia’s strong legal framework and secure business environment. We provide excellent customer service and full legal support, clearly guiding you through every step of your business journey." %}
+                            </p>
+                
+                            <p class="dsn-up mt-15">
+                                {% trans "Our mission is to provide the right information and practical assistance to help you establish your business in Saudi Arabia at a low cost, with minimal effort, and without complications. Speak to our experts today to access reliable and high-quality services for company formation in Saudi Arabia." %}
+                            </p>
+                
+                            <div class="dsn-btn dsn-btn-shape mt-40">
+                                <a class="button background-theme effect-ajax" href="{% url 'web:contact' %}">
+                                    <span class="title-btn p-relative z-index-1 heading-color">
+                                        <span>{% trans "GET A QUOTE" %}</span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                
+                    </div>
+                </section>
+                
+
+
                 <div class="col-lg-12">
                     <!-- Our Featured Footer Start -->
                     <div class="our-feature-footer mb-20" >
-                        <p>Let's build something incredible together.<a href="{% url 'web:request-for-quotation' %}">Get a Quote</a></p>
+                        <p>{% trans "Let's build something incredible together." %}<a href="{% url 'web:request-for-quotation' %}">{% trans "Get a Quote" %}</a></p>
                     </div>
                     <!-- Our Featured Footer End -->
                 </div>
@@ -325,7 +372,7 @@
                     <div class="col-lg-12">
                         <!-- Our Featured Footer Start -->
                         <div class="our-feature-footer" >
-                            <p> Let's make something great work together. <a href="{% url 'web:request-for-quotation' %}">Get a Quote</a></p>
+                            <p>{% trans "Let's build something incredible together." %}<a href="{% url 'web:request-for-quotation' %}">{% trans "Get a Quote" %}</a></p>
                         </div>
                         <!-- Our Featured Footer End -->
                     </div>
@@ -385,12 +432,54 @@
                 <div class="col-lg-12">
                     <!-- Our Featured Footer Start -->
                     <div class="our-feature-footer" >
-                        <p> Bring your vision to life with us.<a href="{% url 'web:request-for-quotation' %}">Get a Quote</a></p>
+                        <p>  {% trans "Bring your vision to life with us." %}<a href="{% url 'web:request-for-quotation' %}">{% trans "Get a Quote" %}</a></p>
                     </div>
                     <!-- Our Featured Footer End -->
                 </div>
 
+                <section class="faq-section section-padding p-relative">
+                    <div class="container">
+                
+                        <!-- Section Title -->
+                        <div class="text-center mb-50">
+                            <h2 class="title dsn-fill">
+                                <span data-dsn-animation='{"from":{},"to":{},"responsive":["tablet","desktop"]}'>
+                                    {% trans "Frequently Asked Questions" %}
+                                </span>
+                            </h2>
+                            <p class="mt-15">
+                                {% trans "Everything you need to know about company formation and business setup in Saudi Arabia." %}
+                            </p>
+                        </div>
+                
+                        <!-- FAQ Accordion -->
+                        <div class="faq-wrapper">
 
+                            {% for faq in faqs %}
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    {{ faq.question }}
+                                    <span class="faq-icon">+</span>
+                                </button>
+                        
+                                <div class="faq-answer">
+                                    <p>
+                                        {{ faq.answer }}
+                                    </p>
+                                </div>
+                            </div>
+                            {% empty %}
+                            <p>No FAQs available.</p>
+                            {% endfor %}
+                        
+                        </div>
+                        
+                
+                   
+                
+                    </div>
+                </section>
+                
                 <!-- ==========   testimonials ========== -->
                 <section class="dsn-testimonials testimonials-small full-testimonials section-margin dsn-swiper"
                     data-dsn-option='{"spaceBetween":30,"centeredSlides":false,"direction":"horizontal","autoHeight":false,"slideToClickedSlide":false,"grabCursor":true,"mousewheel":false,"loop":true,"parallax":false,"slidesPerGroup":1,"slidesPerView":2,"speed":1000,"effect":"card"}'>
@@ -649,5 +738,13 @@
     });
     
 </script>
-
+<script>
+    document.querySelectorAll('.faq-question').forEach(button => {
+        button.addEventListener('click', () => {
+            const item = button.parentElement;
+            item.classList.toggle('active');
+        });
+    });
+    </script>
+    
 {% endblock js %}

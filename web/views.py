@@ -4,7 +4,7 @@ from django.urls import reverse
 from django.http import JsonResponse
 import urllib.parse
 from .forms import EnquiryForm,BookingForm
-from .models import Blog, Client, Portfolio, Service, Testimonial,Banner,CATEGORY_CHOICES,Meta,Team,Category
+from .models import Blog, Client, Portfolio, Service, Testimonial,Banner,CATEGORY_CHOICES,Meta,Team,Category,FAQ
 
 
 def index(request):
@@ -14,6 +14,7 @@ def index(request):
     clients = Client.objects.all()
     blogs = Blog.objects.all()[:3]
     banner = Banner.objects.all()
+    faqs = FAQ.objects.all()
     meta = Meta.objects.filter(page="home").first()
    
     context = {
@@ -24,6 +25,7 @@ def index(request):
         "clients": clients,
         "blogs": blogs,
         "banners":banner,
+        "faqs":faqs,
         'meta':meta,
     }
     return render(request, "web/index.html", context)

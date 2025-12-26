@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Blog, Client, Enquiry, Portfolio, Service, Testimonial,Banner,Meta,Team,Category,ServicePoint,Booking
+from .models import Blog, Client, Enquiry, Portfolio, Service, Testimonial,Banner,Meta,Team,Category,ServicePoint,Booking,FAQ
 
 
 @admin.register(Blog)
@@ -92,3 +92,11 @@ class CategoryAdmin(admin.ModelAdmin):
 @admin.register(Booking)
 class BookingAdmin(admin.ModelAdmin):
     list_display = ("name","email","phone")
+
+
+@admin.register(FAQ)
+class FAQAdmin(admin.ModelAdmin):
+    list_display = ("id", "question")
+    list_display_links = ("id", "question")
+    search_fields = ("question", "answer")
+    ordering = ("id",)

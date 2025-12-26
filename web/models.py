@@ -190,3 +190,23 @@ class Booking(models.Model):
 
     def __str__(self):
         return str(self.name)
+
+
+class FAQ(models.Model):
+    
+    question = models.CharField(
+        max_length=255,
+        verbose_name="Question"
+    )
+    answer = models.TextField(
+        verbose_name="Answer"
+    )
+
+
+    class Meta:
+        verbose_name = "FAQ"
+        verbose_name_plural = "FAQs"
+        ordering = ["id"]
+
+    def __str__(self):
+        return self.question

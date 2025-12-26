@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 21:23+0530\n"
+"POT-Creation-Date: 2025-12-26 11:59+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,25 +54,27 @@ msgstr ""
 "الأعمال التجارية الدولية. نحن نضمن لعملائنا الحصول على خدمات تجارية عالية "
 "الجودة، مما يجعلنا شريكًا موثوقًا لنموهم ونجاحهم."
 
-#: templates/web/about.html:135 templates/web/contact.html:22
-msgid "CONTACT US"
-msgstr "معلومات الاتصال"
+#: templates/web/about.html:135 templates/web/about.html:528
+#: templates/web/includes/header.html:190 templates/web/index.html:243
+#: templates/web/index.html:378 templates/web/index.html:438
+msgid "Get a Quote"
+msgstr "احصل على عرض أسعار"
 
-#: templates/web/about.html:170 templates/web/index.html:161
+#: templates/web/about.html:170 templates/web/index.html:163
 #: templates/web/request_for_quotation.html:511
 msgid "Company Formations in KSA"
 msgstr "تأسيس الشركات في المملكة العربية السعودية"
 
-#: templates/web/about.html:177 templates/web/index.html:168
+#: templates/web/about.html:177 templates/web/index.html:170
 #: templates/web/request_for_quotation.html:524
 msgid "Happy Clients"
 msgstr "عملاء سعيدون"
 
-#: templates/web/about.html:193 templates/web/index.html:184
+#: templates/web/about.html:193 templates/web/index.html:186
 msgid "Years"
 msgstr "سنوات"
 
-#: templates/web/about.html:194 templates/web/index.html:185
+#: templates/web/about.html:194 templates/web/index.html:187
 msgid "experience"
 msgstr "خبرة"
 
@@ -168,27 +170,27 @@ msgstr "دمج الممارسات الصديقة للبيئة في كل ما ن�
 msgid "Partnering with clients to achieve shared success."
 msgstr "التعاون مع العملاء لتحقيق النجاح المشترك."
 
-#: templates/web/about.html:423 templates/web/index.html:378
+#: templates/web/about.html:423 templates/web/index.html:491
 msgid "testimonials"
 msgstr "التوصيات"
 
-#: templates/web/about.html:424 templates/web/index.html:379
+#: templates/web/about.html:424 templates/web/index.html:492
 msgid "What People Are Saying"
 msgstr "ماذا يقول الناس"
 
-#: templates/web/about.html:426 templates/web/index.html:381
+#: templates/web/about.html:426 templates/web/index.html:494
 msgid "Consumers today rely heavily on digital"
 msgstr "المستهلكون اليوم يعتمدون بشكل كبير على الرقمية"
 
-#: templates/web/about.html:427 templates/web/index.html:382
+#: templates/web/about.html:427 templates/web/index.html:495
 msgid "means to research products. We research"
 msgstr "البحث عن المنتجات. نحن نقوم بالبحث"
 
-#: templates/web/about.html:428 templates/web/index.html:383
+#: templates/web/about.html:428 templates/web/index.html:496
 msgid "a brand of bldend"
 msgstr "علامة تجارية للخلط"
 
-#: templates/web/about.html:445 templates/web/index.html:400
+#: templates/web/about.html:445 templates/web/index.html:513
 msgid "out of 5 stars"
 msgstr "من 5 نجوم"
 
@@ -204,14 +206,6 @@ msgid ""
 msgstr ""
 "نحن فخورون بشراكتنا مع مجموعة متنوعة من العملاء عبر الصناعات، نبني الثقة من "
 "خلال الحلول المبتكرة. قصص نجاحهم تلهم التزامنا بالتميز."
-
-#: templates/web/about.html:528 templates/web/includes/header.html:119
-#: templates/web/includes/header.html:132
-#: templates/web/includes/service_detail1.html:578
-#: templates/web/request_for_quotation.html:113
-#: templates/web/service_detail1.html:620
-msgid "Contact"
-msgstr "اتصال"
 
 #: templates/web/blog.html:19
 msgid "Our Blogs"
@@ -243,6 +237,10 @@ msgstr "انستجرام"
 #: templates/web/service.html:64 templates/web/service_detail.html:128
 msgid "TW"
 msgstr "تويتر"
+
+#: templates/web/contact.html:22
+msgid "CONTACT US"
+msgstr "معلومات الاتصال"
 
 #: templates/web/contact.html:108
 msgid "Let's Work Together"
@@ -288,7 +286,7 @@ msgstr "روابط النقل"
 msgid "home"
 msgstr "الرئيسية"
 
-#: templates/web/includes/footer.html:38 templates/web/index.html:329
+#: templates/web/includes/footer.html:38 templates/web/index.html:394
 #: templates/web/portfolio.html:20
 msgid "What We Do"
 msgstr "ما نقدمه"
@@ -342,6 +340,14 @@ msgstr "الرئيسية"
 msgid "About"
 msgstr "عن"
 
+#: templates/web/includes/header.html:119
+#: templates/web/includes/header.html:132
+#: templates/web/includes/service_detail1.html:578
+#: templates/web/request_for_quotation.html:113
+#: templates/web/service_detail1.html:620
+msgid "Contact"
+msgstr "اتصال"
+
 #: templates/web/includes/header.html:145
 msgid "Follow us"
 msgstr "تابعنا"
@@ -368,10 +374,6 @@ msgstr "افتح"
 msgid "Close"
 msgstr "اغلق"
 
-#: templates/web/includes/header.html:190
-msgid "Get a Quote"
-msgstr "احصل على عرض أسعار"
-
 #: templates/web/index.html:88
 msgid "PREV"
 msgstr "السابق"
@@ -390,38 +392,139 @@ msgstr "في المملكة العربية السعودية مع خبراء بي
 
 #: templates/web/index.html:117
 msgid ""
-"We’re your on-the-ground partner in Saudi Arabia, helping you set up and "
-"grow. With over 150 local experts, we offer end-to-end support and complete "
-"legal guidance. Explore the unique advantages of Saudi’s strategic location "
-"and business environment. Join forces with us to nurture your growth and "
-"maximize efficiency for your success!"
+"As a leading business setup consultant in Saudi Arabia,  Bizzup Arabia helps "
+"you to set up and develop your business plans from start to finish. With "
+"over 150 local experts and years of expertise, we offer end-to-end support "
+"and complete legal guidance. Explore the unique advantages of Saudi Arabia’s "
+"strategic location and business environment with us. Partner with us to "
+"nurture business growth and maximize operational efficiency."
 msgstr ""
 "نحن شريكك المحلي في المملكة العربية السعودية، نساعدك في الإعداد والنمو. مع "
 "أكثر من 150 خبيرًا محليًا، نقدم لك دعمًا شاملاً وإرشادًا قانونيًا كاملاً. اكتشف "
 "المزايا الفريدة لموقع المملكة الاستراتيجي وبيئة الأعمال. انضم إلينا للعمل "
 "على تعزيز نموك وزيادة الكفاءة لتحقيق نجاحك!"
 
-#: templates/web/index.html:125 templates/web/index.html:126
+#: templates/web/index.html:125
 msgid "ABOUT US"
 msgstr "من نحن"
 
-#: templates/web/index.html:234
+#: templates/web/index.html:126
+msgid "MORE ABOUT US"
+msgstr "من نحن"
+
+#: templates/web/index.html:202
+msgid "Bizzup Arabia: The #1 Business Setup Consultant In Saudi Arabia"
+msgstr ""
+"بيز أب العربية: المستشار الأول لتأسيس الأعمال في المملكة العربية السعودية"
+
+#: templates/web/index.html:207
+msgid ""
+"Are you looking to establish your business presence in Saudi Arabia's ever-"
+"growing business and industrial landscape? As a leading business development "
+"consultant in Saudi Arabia (KSA), with over 600 company formations in Saudi "
+"Arabia and over 3,000 satisfied clients for over 7 years, we help you "
+"successfully establish, develop, and thrive your business in the country's "
+"business-friendly ecosystem."
+msgstr ""
+"هل تتطلع إلى تأسيس حضور قوي لأعمالك في المشهد التجاري والصناعي المتنامي في "
+"المملكة العربية السعودية؟ بصفتنا شركة رائدة في استشارات تطوير الأعمال في "
+"المملكة (KSA)، ومع خبرة تمتد لأكثر من 7 سنوات وأكثر من 600 عملية تأسيس شركات "
+"ناجحة، ورضا أكثر من 3,000 عميل، نساعدك على تأسيس أعمالك وتطويرها وتحقيق "
+"النجاح ضمن بيئة أعمال محفزة للنمو."
+
+#: templates/web/index.html:211
+msgid ""
+"From company registration to obtaining licenses and obtaining a company "
+"operating permit, we handle the entire process of company formation "
+"responsibly and with excellent service. We start our process with a detailed "
+"consultation to understand your business goals, then develop a comprehensive "
+"business plan. Our team handles all the legal processes and provides full "
+"support to start your business in Saudi Arabia."
+msgstr ""
+"من تسجيل الشركة إلى استخراج التراخيص والحصول على تصاريح مزاولة النشاط، ندير "
+"كامل عملية تأسيس الشركة بمسؤولية عالية وخدمة متميزة. نبدأ بخطوة استشارية "
+"تفصيلية لفهم أهدافك التجارية، ثم نضع خطة عمل متكاملة. ويتولى فريقنا جميع "
+"الإجراءات القانونية مع تقديم دعم كامل لبدء أعمالك في المملكة العربية "
+"السعودية."
+
+#: templates/web/index.html:215
+msgid ""
+"As a leading business consultant in Saudi Arabia, Bizzup Arabia assists you "
+"with all other business incorporation processes, in addition to company "
+"formation. This includes auditing and tax services, PRO & GRO services, and "
+"company formations in special economic zones, and more."
+msgstr ""
+"بصفتنا مستشار أعمال رائد في المملكة العربية السعودية، تقدم بيز أب العربية "
+"الدعم في جميع إجراءات تأسيس الأعمال إلى جانب تأسيس الشركات، بما في ذلك خدمات "
+"التدقيق والمحاسبة والضرائب، وخدمات العلاقات الحكومية (PRO & GRO)، وتأسيس "
+"الشركات في المناطق الاقتصادية الخاصة، وغيرها من الخدمات."
+
+#: templates/web/index.html:219
+msgid ""
+"Bizzup Arabia has over 7 years of experience in building successful "
+"businesses within Saudi Arabia’s strong legal framework and secure business "
+"environment. We provide excellent customer service and full legal support, "
+"clearly guiding you through every step of your business journey."
+msgstr ""
+"تمتلك بيز أب العربية خبرة تزيد عن 7 سنوات في بناء شركات ناجحة ضمن الإطار "
+"القانوني القوي والبيئة الاستثمارية الآمنة في المملكة العربية السعودية. نحرص "
+"على تقديم خدمة عملاء متميزة ودعم قانوني كامل، مع إرشادك بوضوح في كل مرحلة من "
+"مراحل رحلتك التجارية."
+
+#: templates/web/index.html:223
+msgid ""
+"Our mission is to provide the right information and practical assistance to "
+"help you establish your business in Saudi Arabia at a low cost, with minimal "
+"effort, and without complications. Speak to our experts today to access "
+"reliable and high-quality services for company formation in Saudi Arabia."
+msgstr ""
+"مهمتنا هي تزويدك بالمعلومات الصحيحة والدعم العملي لمساعدتك على تأسيس أعمالك "
+"في المملكة العربية السعودية بتكلفة منخفضة، وبأقل جهد ممكن، ودون تعقيدات. "
+"تواصل مع خبرائنا اليوم للحصول على خدمات موثوقة وعالية الجودة لتأسيس الشركات "
+"في السعودية."
+
+#: templates/web/index.html:229
+msgid "GET A QUOTE"
+msgstr "احصل على عرض سعر"
+
+#: templates/web/index.html:243 templates/web/index.html:378
+msgid "Let's build something incredible together."
+msgstr "لنقم ببناء شيء استثنائي معًا."
+
+#: templates/web/index.html:290
 msgid "SERVICES"
 msgstr "الخدمات"
 
-#: templates/web/index.html:235
+#: templates/web/index.html:291
 msgid "Our Service"
 msgstr "خدمتنا"
 
-#: templates/web/index.html:328
+#: templates/web/index.html:393
 msgid "Comprehensive Business Solutions"
 msgstr "حلول شاملة للأعمال"
 
-#: templates/web/index.html:450 templates/web/single_blog.html:29
+#: templates/web/index.html:438
+msgid "Bring your vision to life with us."
+msgstr "حوّل رؤيتك إلى واقع معنا."
+
+#: templates/web/index.html:450
+msgid "Frequently Asked Questions"
+msgstr "الأسئلة الشائعة"
+
+#: templates/web/index.html:454
+msgid ""
+"Everything you need to know about company formation and business setup in "
+"Saudi Arabia."
+msgstr ""
+"كل ما تحتاج إلى معرفته حول تأسيس الشركات وبدء الأعمال في المملكة العربية "
+"السعودية."
+
+
+#: templates/web/index.html:569 templates/web/single_blog.html:29
 msgid "Blogs"
 msgstr "المدونات"
 
-#: templates/web/index.html:451
+#: templates/web/index.html:570
 msgid "Latest Updates"
 msgstr "التحديثات الأخيرة"
 

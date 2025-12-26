@@ -6,7 +6,8 @@ from .models import (
     Blog, 
     Category,
     Portfolio,
-    ServicePoint
+    ServicePoint,
+    FAQ
 
 )
 
@@ -43,3 +44,8 @@ class PortfolioTranslationOptions(TranslationOptions):
 @register(ServicePoint)
 class ServicePointTranslationOptions(TranslationOptions):
     fields = ('title','description',)
+
+
+@register(FAQ)
+class FAQTranslationOptions(TranslationOptions):
+    fields = ('question','answer',)
