@@ -30,15 +30,15 @@
                                                     <span class="background-section heading-color">{{banner.tags}}</span>
                                                 </div>
                                             </div>
-                                            <h2 class="title-lg has-box-mod p-relative banner-title">
+                                            <h1 class="title-lg has-box-mod p-relative banner-title">
                                                 <a class="effect-ajax text-upper"
                                                    {% if LANGUAGE_CODE != 'ar' %} 
                                                    data-dsn-split="chars" 
                                                    {% endif %}
                                                    href="#" data-dsn-ajax="slider">
-                                                    <br> {{ banner.title }}
+                                                    <br> {{ banner.title|safe }}
                                                 </a>
-                                            </h2>
+                                            </h1>
                                             <p class="sm-title-block text-upper mt-20 max-w850  mr-auto">{{ banner.description }}</p>
                                                 {% comment %} <div class="dsn-btn dsn-btn-shape mt-30 d-flex">
 
