@@ -41,6 +41,8 @@
     {% else %}
     <meta property="twitter:image" content="{% static 'web/images/meta.webp' %}" />
     {% endif %}
+    <link rel="canonical" href="{{ request.build_absolute_uri }}" />
+
     {% block css %}{% endblock css %}
   
 
